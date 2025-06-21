@@ -15,7 +15,7 @@
   "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
   "scripts": {
     "build": "concurrently npm:build:*",
-    "build:css": "node purgecss.js",
+    "build:css": "sass _sass/main.scss assets/css/jekyll-theme-chirpy.css",
     "build:js": "rollup -c --bundleConfigAsCjs --environment BUILD:production",
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",
@@ -45,6 +45,7 @@
     "husky": "^9.1.7",
     "purgecss": "^7.0.2",
     "rollup": "^4.41.0",
+    "sass": "^1.75.0",
     "semantic-release": "^24.2.4",
     "stylelint": "^16.19.1",
     "stylelint-config-standard-scss": "^15.0.1"
