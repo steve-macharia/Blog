@@ -5,22 +5,18 @@
   command = "bundle config set --local path 'vendor/bundle' && bundle install && JEKYLL_ENV=production bundle exec jekyll build"
 
 [build.environment]
-  RUBY_VERSION = "3.2.2"      # Netlify supports up to Ruby 3.2.x as of June 2025
-  NODE_VERSION = "18.18.2"    # Node.js version for plugins or frontend tooling
+  RUBY_VERSION = "3.2.2"        # Netlify supports up to Ruby 3.2.x as of June 2025
+  NODE_VERSION = "18.18.2"      # Node.js version for plugins or frontend tooling
   BUNDLE_PATH = "vendor/bundle"
   JEKYLL_ENV = "production"
 
 [context.production.environment]
   JEKYLL_ENV = "production"
 
-# Netlify Plugin Configuration
-# IMPORTANT: Make sure @netlify/plugin-cache is installed locally via:
-# npm install -D @netlify/plugin-cache
+# Removed plugin-cache due to 404 error in npm registry
+# Netlify already performs basic caching for dependencies and build outputs
 
-[[plugins]]
-  package = "@netlify/plugin-cache"
-
-  [plugins.inputs]
-  paths = [
-    "vendor/bundle"
-  ]
+# OPTIONAL: You can add another valid plugin here if needed, for example:
+#
+# [[plugins]]
+# package = "@netlify/plugin-lighthouse"
