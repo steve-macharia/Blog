@@ -13,6 +13,6 @@
 [context.production.environment]
   JEKYLL_ENV = "production"
 
-# ✅ Enabled plugin-cache again with valid version from package.json
-[[plugins]]
-  package = "@netlify/plugin-cache"
+# Plugin section removed to avoid npm 404 error during build
+# [[plugins]]
+#   package = "@netlify/plugin-cache"
