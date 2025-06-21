@@ -1,5 +1,9 @@
 paginate: 10
 
+# ✅ Added required plugin to support `{% seo %}` tag
+plugins:
+  - jekyll-seo-tag
+
 # ------------------------------
 # DON'T modify below this line
 # ------------------------------
