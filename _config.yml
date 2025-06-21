@@ -1,8 +1,9 @@
 paginate: 10
 
-# ✅ Added required plugin to support `{% seo %}` tag
+# ✅ Added required plugins to support `{% seo %}` and `{% include_cached %}` tags
 plugins:
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 # ------------------------------
 # DON'T modify below this line
