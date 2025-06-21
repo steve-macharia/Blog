@@ -4,7 +4,7 @@ datePublished: Sat Jun 21 2025 17:56:43 GMT+0000 (Coordinated Universal Time)
 cuid: cmc6jj6tu000c02l45rf57adj
 slug: when-0mg-broke-our-pipeline-a-fhir-hl7v2-and-mirth-connect-failure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750529605817/06c74a9d-aef5-4727-9c61-f3dcb6254b5a.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750528594979/238039ab-524a-42f2-8058-6c277cc39827.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750529848656/c71414db-0707-41d9-82af-a6cc6aedb99f.png
 tags: digitalhealth-kenyahealth-healthitkenya-ehealth-interoperabilitykenya-kenyaemr-smarthealtharchitecture-if-referencing-shagoke-mohkenya-healthstandardskenya-openhie-openmrs
 
 ---
