@@ -1,0 +1,34 @@
+// Import Bootstrap from the gem
+@import "bootstrap";
+
+// Import Chirpy variables and base styles (if available)
+@import "variables";
+@import "base";
+
+// Add your custom styles below
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Example: Custom navbar
+.navbar-custom {
+  background-color: #343a40;
+  .nav-link {
+    color: #fff;
+    &:hover {
+      color: #f8f9fa;
+    }
+  }
+}
