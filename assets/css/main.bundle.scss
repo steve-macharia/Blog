@@ -1,5 +1,5 @@
 // Import Bootstrap from node_modules
-@use "bootstrap/scss/bootstrap" as *;
+@use "../../node_modules/bootstrap/scss/bootstrap" as *;
 
 // Import Chirpy variables and base styles (if available)
 @use "variables" as *;
