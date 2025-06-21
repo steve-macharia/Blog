@@ -59,7 +59,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "18.x"
+    "node": ">=20.8.1"
   },
   "commitlint": {
     "extends": [
