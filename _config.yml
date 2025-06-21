@@ -12,15 +12,15 @@ tagline: A Technical Blog on Health IT and Interoperability
 description: >-
   Deep technical dives into FHIR, EMRs, OpenHIE, and Kenya's Digital Health ecosystem by Stephen Macharia.
 
-# Set your custom GitHub Pages URL
+# GitHub Pages settings
 url: "https://steve-macharia.github.io"
-baseurl: "/Blog"
+baseurl: "/Blog"  # DO NOT leave empty if using project pages
 
 github:
   username: steve-macharia
 
 twitter:
-  username: your_twitter_username # optional
+  username: your_twitter_username
 
 social:
   name: Stephen Macharia
@@ -28,7 +28,6 @@ social:
   links:
     - https://twitter.com/your_twitter_username
     - https://github.com/steve-macharia
-    # - https://www.linkedin.com/in/your_linkedin/
 
 webmaster_verifications:
   google:
@@ -56,12 +55,12 @@ analytics:
 pageviews:
   provider:
 
-theme_mode: # [light | dark]
+theme_mode: light  # or "dark" if preferred
 
-cdn: "https://chirpy-img.netlify.app"
+cdn: ""  # REMOVE external CDN to use local images and assets
 
-avatar: "/commons/avatar.jpg"
-social_preview_image:
+avatar: "/Blog/assets/img/avatar.jpg"  # ✅ Add an actual avatar or comment this out
+social_preview_image: "/Blog/assets/img/preview.png"  # ✅ Optional but helpful
 
 toc: true
 
@@ -85,15 +84,14 @@ comments:
 
 assets:
   self_host:
-    enabled:
+    enabled: true
     env:
 
 pwa:
   enabled: true
   cache:
     enabled: true
-    deny_paths:
-      # - "/example"
+    deny_paths: []
 
 paginate: 10
 
