@@ -1,0 +1,22 @@
+# netlify.toml
+
+[build]
+  publish = "_site"
+  command = "bundle config set --local path 'vendor/bundle' && bundle install && JEKYLL_ENV=production bundle exec jekyll build"
+
+[build.environment]
+  RUBY_VERSION = "3.2.2" # Netlify supports up to Ruby 3.2.x as of June 2025
+  NODE_VERSION = "18.18.2" # Optional, useful if using Node/npm in the theme
+  BUNDLE_PATH = "vendor/bundle"
+  JEKYLL_ENV = "production"
+
+[context.production.environment]
+  JEKYLL_ENV = "production"
+
+[[plugins]]
+  package = "@netlify/plugin-cache"
+
+  [plugins.inputs]
+  paths = [
+    "vendor/bundle"
+  ]
