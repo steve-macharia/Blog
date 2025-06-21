@@ -1,9 +1,9 @@
-// Import Bootstrap from the gem
-@import "bootstrap";
+// Import Bootstrap from node_modules
+@use "bootstrap/scss/bootstrap" as *;
 
 // Import Chirpy variables and base styles (if available)
-@import "variables";
-@import "base";
+@use "variables" as *;
+@use "base" as *;
 
 // Add your custom styles below
 
