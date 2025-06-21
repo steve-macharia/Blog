@@ -6,12 +6,16 @@
 
 [build.environment]
   RUBY_VERSION = "3.2.2"      # Netlify supports up to Ruby 3.2.x as of June 2025
-  NODE_VERSION = "18.18.2"    # Optional, useful if using Node/npm in the theme
+  NODE_VERSION = "18.18.2"    # Node.js version for plugins or frontend tooling
   BUNDLE_PATH = "vendor/bundle"
   JEKYLL_ENV = "production"
 
 [context.production.environment]
   JEKYLL_ENV = "production"
+
+# Netlify Plugin Configuration
+# IMPORTANT: Make sure @netlify/plugin-cache is installed locally via:
+# npm install -D @netlify/plugin-cache
 
 [[plugins]]
   package = "@netlify/plugin-cache"
