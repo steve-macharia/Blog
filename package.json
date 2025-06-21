@@ -58,6 +58,9 @@
     "> 0.2%",
     "not dead"
   ],
+  "engines": {
+    "node": "18.x"
+  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
