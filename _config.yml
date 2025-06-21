@@ -1,98 +1,3 @@
-# The Site Configuration
-
-# Import the theme
-theme: jekyll-theme-chirpy
-
-lang: en
-timezone: Africa/Nairobi
-
-# SEO settings
-title: Stephen Macharia's Blog
-tagline: A Technical Blog on Health IT and Interoperability
-description: >-
-  Deep technical dives into FHIR, EMRs, OpenHIE, and Kenya's Digital Health ecosystem by Stephen Macharia.
-
-# GitHub Pages settings
-url: "https://steve-macharia.github.io"
-baseurl: "/Blog"  # DO NOT leave empty if using project pages
-
-github:
-  username: steve-macharia
-
-twitter:
-  username: your_twitter_username
-
-social:
-  name: Stephen Macharia
-  email: steve@example.com
-  links:
-    - https://twitter.com/your_twitter_username
-    - https://github.com/steve-macharia
-
-webmaster_verifications:
-  google:
-  bing:
-  yandex:
-  baidu:
-  facebook:
-
-analytics:
-  google:
-    id:
-  goatcounter:
-    id:
-  umami:
-    id:
-    domain:
-  matomo:
-    id:
-    domain:
-  cloudflare:
-    id:
-  fathom:
-    id:
-
-pageviews:
-  provider:
-
-theme_mode: light  # or "dark" if preferred
-
-cdn: ""  # REMOVE external CDN to use local images and assets
-
-avatar: "/Blog/assets/img/avatar.jpg"  # ✅ Add an actual avatar or comment this out
-social_preview_image: "/Blog/assets/img/preview.png"  # ✅ Optional but helpful
-
-toc: true
-
-comments:
-  provider:
-  disqus:
-    shortname:
-  utterances:
-    repo:
-    issue_term:
-  giscus:
-    repo:
-    repo_id:
-    category:
-    category_id:
-    mapping:
-    strict:
-    input_position:
-    lang:
-    reactions_enabled:
-
-assets:
-  self_host:
-    enabled: true
-    env:
-
-pwa:
-  enabled: true
-  cache:
-    enabled: true
-    deny_paths: []
-
 paginate: 10
 
 # ------------------------------
@@ -136,6 +41,8 @@ defaults:
       permalink: /:title/
 
 sass:
+  load_paths:
+    - _sass
   style: compressed
 
 compress_html:
@@ -146,23 +53,3 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
-
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - docs
-  - tools
-  - README.md
-  - LICENSE
-  - purgecss.js
-  - "*.config.js"
-  - "package*.json"
-
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
