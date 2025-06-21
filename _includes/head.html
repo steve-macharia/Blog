@@ -59,7 +59,7 @@
     {{ site.title }}
   </title>
 
-  {% include_cached favicons.html %}
+  {% include favicons.html %} <!-- ✅ Fixed line -->
 
   <!-- Resource Hints -->
   {% unless site.assets.self_host.enabled %}
