@@ -13,10 +13,6 @@
 [context.production.environment]
   JEKYLL_ENV = "production"
 
-# Removed plugin-cache due to 404 error in npm registry
-# Netlify already performs basic caching for dependencies and build outputs
-
-# OPTIONAL: You can add another valid plugin here if needed, for example:
-#
-# [[plugins]]
-# package = "@netlify/plugin-lighthouse"
+# ✅ Enabled plugin-cache again with valid version from package.json
+[[plugins]]
+  package = "@netlify/plugin-cache"
