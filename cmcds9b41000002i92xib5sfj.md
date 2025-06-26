@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750966500933/cdb6b27
 
 ---
 
-## Date: 2025-06-26 author: tags: PHP, MySQL, Security, DevOps, Web Security, Health IT, EMR Security, Digital Health, Production Hardening
+## Tags: PHP, MySQL, Security, DevOps, Web Security, Health IT, EMR Security, Digital Health, Production Hardening
 
 ## 🚨 Introduction
 
