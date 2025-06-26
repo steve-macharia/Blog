@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750966500933/cdb6b27
 
 ---
 
-## Date: 2025-06-26 author: Stephen Macharia tags: \[PHP, MySQL, Security, DevOps, OpenEMR, Web Security, Health IT, EMR Security, Digital Health, Production Hardening\] description: "A future scenario showing how common MySQL misconfigurations could destabilize an EMR system. Includes technical analysis, PHP code, and preventive strategies."
+## Date: 2025-06-26 author: tags: PHP, MySQL, Security, DevOps, Web Security, Health IT, EMR Security, Digital Health, Production Hardening
 
 ## 🚨 Introduction
 
