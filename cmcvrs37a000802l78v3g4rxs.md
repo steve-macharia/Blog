@@ -3,6 +3,7 @@ title: "How I Used Pest for EMR Unit Testing — Pros, Cons, and Gaps"
 datePublished: Wed Jul 09 2025 09:41:49 GMT+0000 (Coordinated Universal Time)
 cuid: cmcvrs37a000802l78v3g4rxs
 slug: how-i-used-pest-for-emr-unit-testing-pros-cons-and-gaps
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752054354565/e41ca55f-c850-4bbf-97da-18fb96ec17e9.png
 
 ---
 
