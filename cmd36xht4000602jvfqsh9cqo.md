@@ -3,7 +3,7 @@ title: "2147483647 + 1 < 0: A 32-Bit Horror Story"
 datePublished: Mon Jul 14 2025 14:20:19 GMT+0000 (Coordinated Universal Time)
 cuid: cmd36xht4000602jvfqsh9cqo
 slug: 2147483647-1-0-a-32-bit-horror-story
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752502770741/797cbe64-49e7-4f08-a02a-53b9ff661411.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752505505494/e7c0ae97-a5bd-4512-a43e-597a58796586.png
 
 ---
 
