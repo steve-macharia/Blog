@@ -5,6 +5,7 @@ seoDescription: "Learn how Kenyan developers can write cleaner code using Uncle 
 datePublished: Sat Jul 26 2025 08:11:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmdjz0rik000602jrhdr211vk
 slug: why-most-kenyan-developers-misuse-code-comments-and-what-uncle-bob-recommends-instead
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753518894724/e789ee6c-893a-4f66-a1d0-1e5d4986a96d.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1753517299184/1e82281d-ce33-46e3-900c-e21fddb750f0.webp
 tags: cleancode-kenyadevelopers-commentingbestpractices-unclebobprinciples-kenyatech-hashnodekenya-codereadability-nairobidevelopers-softwareengineeringke-codequalitytips
 
