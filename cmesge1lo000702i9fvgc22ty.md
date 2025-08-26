@@ -1,5 +1,5 @@
 ---
-title: "*Automating Pentests with Nmap + Metasploit: My pentest_orchestrator.sh Workflow*"
+title: "Automating Pentests with Nmap + Metasploit: My pentest_orchestrator.sh Workflow"
 datePublished: Tue Aug 26 2025 11:19:04 GMT+0000 (Coordinated Universal Time)
 cuid: cmesge1lo000702i9fvgc22ty
 slug: automating-pentests-with-nmap-metasploit-my-pentestorchestratorsh-workflow
